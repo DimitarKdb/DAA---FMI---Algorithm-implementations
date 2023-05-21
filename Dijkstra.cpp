@@ -60,32 +60,32 @@ void dijkstra(vector<GraphVertex>& graph, int source) {
     }
 }
 
-//int main() {
-//    int numVertices, numEdges;
-//    cin >> numVertices >> numEdges;
-//    vector<GraphVertex> graph(numVertices);
-//    // Read in the edges of the graph from standard input and store them in the graph data structure
-//    for (int i = 0; i < numEdges; i++) {
-//        int u, v, w;
-//        cin >> u >> v >> w;
-//        graph[u].id = u;
-//        graph[v].id = v;
-//        graph[u].edges.push_back({ v, w });
-//        graph[v].edges.push_back({ u, w });
-//    }
-//    int source;
-//    cin >> source;
-//    // Initialize the distance of all vertices to infinity
-//    for (auto& vertex : graph) {
-//        vertex.distance = INF;
-//    }
-//    // Run Dijkstra's algorithm from the source vertex
-//    dijkstra(graph, source);
-//    // Output the shortest distance from the source vertex to each of the other vertices
-//    for (const auto& vertex : graph) {
-//        if (vertex.id != source) {
-//            cout << "Shortest distance from " << source << " to " << vertex.id << " is " << vertex.distance << endl;
-//        }
-//    }
-//    return 0;
-//}
+int main() {
+    int numVertices, numEdges;
+    cin >> numVertices >> numEdges;
+    vector<GraphVertex> graph(numVertices);
+    // Read in the edges of the graph from standard input and store them in the graph data structure
+    for (int i = 0; i < numEdges; i++) {
+        int u, v, w;
+        cin >> u >> v >> w;
+        graph[u].id = u;
+        graph[v].id = v;
+        graph[u].edges.push_back({ v, w });
+        graph[v].edges.push_back({ u, w });
+    }
+    int source;
+    cin >> source;
+    // Initialize the distance of all vertices to infinity
+    for (auto& vertex : graph) {
+        vertex.distance = INF;
+    }
+    // Run Dijkstra's algorithm from the source vertex
+    dijkstra(graph, source);
+    // Output the shortest distance from the source vertex to each of the other vertices
+    for (const auto& vertex : graph) {
+        if (vertex.id != source) {
+            cout << "Shortest distance from " << source << " to " << vertex.id << " is " << vertex.distance << endl;
+      }
+   }
+    return 0;
+}
