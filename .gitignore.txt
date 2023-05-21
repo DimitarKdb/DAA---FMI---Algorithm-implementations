@@ -1,5 +1,5 @@
-/Algorithms - DAA Course FMI.sln
-/Algorithms - DAA Course FMI.vcxproj
-/Algorithms - DAA Course FMI.vcxproj.filters
-/Algorithms - DAA Course FMI.vcxproj.user
-/x64
+Algorithms - DAA Course FMI.sln
+Algorithms - DAA Course FMI.vcxproj
+Algorithms - DAA Course FMI.vcxproj.filters
+Algorithms - DAA Course FMI.vcxproj.user
+x64
