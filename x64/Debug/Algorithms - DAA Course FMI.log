@@ -1,0 +1,10 @@
+﻿  BFS-DFS.cpp
+G:\Visual Studio\Algorithms - DAA Course FMI\BFS-DFS.cpp(9,51): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Dijkstra.cpp
+  Kruskal.cpp
+  Prim.cpp
+G:\Visual Studio\Algorithms - DAA Course FMI\Prim.cpp(8,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Visual Studio\Algorithms - DAA Course FMI\Prim.cpp(11,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Tarjan .cpp
+  Generating Code...
+  Algorithms - DAA Course FMI.vcxproj -> G:\Visual Studio\Algorithms - DAA Course FMI\x64\Debug\Algorithms - DAA Course FMI.exe
