@@ -34,20 +34,3 @@ void insertionSort(vector<int>& array) {
 	}
 }
 
-
-int main() {
-
-	vector<int> array = { 5, 2, 4, 6, 1, 3 };
-
-	//insertionSort(array);
-
-	//selectionSort(array);
-
-	for (size_t i = 0; i < array.size(); i++)
-	{
-		cout << array[i] << " ";
-	}
-
-
-	return 0;
-}
